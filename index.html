@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="zxx">
-
+<html lang="zh-Hant">
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="Amin Template">
@@ -10,9 +9,8 @@
     <title>Amin | Template</title>
 
     <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900&display=swap"
-        rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Cinzel:400,700,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel:400,700,900&amp;display=swap" rel="stylesheet">
 
     <!-- Css Styles -->
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
@@ -26,115 +24,110 @@
 </head>
 
 <body>
-    <!-- Page Preloder -->
-    <div id="preloder">
-        <div class="loader"></div>
+    <!-- Page Preloader -->
+    <div id="preloder" style="display: none;">
+        <div class="loader" style="display: none;"></div>
     </div>
 
     <!-- Humberger Menu Begin -->
     <div class="humberger-menu-overlay"></div>
     <div class="humberger-menu-wrapper">
         <div class="hw-logo">
-            <a href="#"><img src="img/f-logo.png" alt=""></a>
+            <a href="#"><img src="img/f-logo.png" alt="Logo"></a>
         </div>
         <div class="hw-menu mobile-menu">
             <ul>
-                <li><a href="./index.html">首頁</a></li>
-                <li><a href="#">更新<i class="fa fa-angle-down"></i></a>
-                    <ul class="dropdown">
-                        <li><a href="#">詳情</a></li>
+                <li>
+                    <a href="./index.html" role="menuitem">首頁</a>
+                </li>
+                <li class="slicknav_parent slicknav_collapsed">
+                    <a href="#" role="menuitem" aria-haspopup="true" class="slicknav_item slicknav_row">
+                        更新 <i class="fa fa-angle-down"></i>
+                    </a>
+					<ul class="dropdown" role="menu">
+                        <li><a href="./categories-list.html" role="menuitem">設置</a></li>
+                        <li><a href="./categories-grid.html" role="menuitem">職業</a></li>
+                        <li><a href="./typography.html" role="menuitem">地圖</a></li>
+                        <li><a href="./details-post-default.html" role="menuitem">武器</a></li>
+                        <li><a href="./details-post-gallery.html" role="menuitem">防具</a></li>
+                        <li><a href="./details-post-review.html" role="menuitem">道具</a></li>
+                        <li><a href="./contact.html" role="menuitem">魔法</a></li>
                     </ul>
                 </li>
-				<li><a href="#">介紹<i class="fa fa-angle-down"></i></a>
-				    <ul class="dropdown">
-                        <li><a href="#">設置</a></li>
-                        <li><a href="#">職業</a></li>
-						<li><a href="#">地圖</a></li>
-                        <li><a href="#">武器</a></li>
-                        <li><a href="#">防具</a></li>
-						<li><a href="#">道具</a></li>
-						<li><a href="#">娃娃</a></li>
-						<li><a href="#">魔法</a></li>
+                <li class="slicknav_parent slicknav_collapsed">
+                    <a href="#" role="menuitem" aria-haspopup="true" class="slicknav_item slicknav_row">
+                        介紹 <i class="fa fa-angle-down"></i>
+                    </a>
+					<ul class="dropdown" role="menu">
+                        <li><a href="#" role="menuitem">調整</a></li>
                     </ul>
                 </li>
-                <li><a href="#">申請<i class="fa fa-angle-down"></i></a>
-                    <ul class="dropdown">
-                        <li><a href="#">遊戲帳號</a></li>
+                <li class="slicknav_parent slicknav_open">
+                    <a href="#" role="menuitem" aria-haspopup="true" class="slicknav_item slicknav_row">
+                        下載 <i class="fa fa-angle-down"></i>
+                    </a>
+                    <ul class="dropdown" role="menu">
+                        <li><a href="#" role="menuitem">下載區</a></li>
                     </ul>
                 </li>
-                <li><a href="#">下載<i class="fa fa-angle-down"></i></a>
-                    <ul class="dropdown">
-                        <li><a href="#">下載區</a></li>
-                    </ul>
-                </li>
-                <li><a href="#">剪輯<i class="fa fa-angle-down"></i></a>
-                    <ul class="dropdown">
-                        <li><a href="#">遊戲彩蛋</a></li>
+                <li class="slicknav_parent slicknav_open">
+                    <a href="#" role="menuitem" aria-haspopup="true" class="slicknav_item slicknav_row">
+                        剪輯 <i class="fa fa-angle-down"></i>
+                    </a>
+                    <ul class="dropdown" role="menu">
+                        <li><a href="#" role="menuitem">精華</a></li>
                     </ul>
                 </li>
             </ul>
         </div>
-        <div id="mobile-menu-wrap"><div class="slicknav_menu"><a href="#" aria-haspopup="true" role="button" tabindex="0" class="slicknav_btn slicknav_collapsed" style="outline: none;"><span class="slicknav_menutxt">MENU</span><span class="slicknav_icon"><span class="slicknav_icon-bar"></span><span class="slicknav_icon-bar"></span><span class="slicknav_icon-bar"></span></span></a><div class="slicknav_nav slicknav_hidden" aria-hidden="true" role="menu" style="display: none;">
-            <ul>
-                <li><a href="" role="menuitem">首頁</a></li>
-                <li class="slicknav_parent slicknav_collapsed"><a href="#" role="menuitem" aria-haspopup="true" tabindex="-1" class="slicknav_item slicknav_row" style="outline: none;"><a href="#">更新<i class="fa fa-angle-down"></i></a>
-                    <span class="slicknav_arrow">►</span></a><ul class="dropdown slicknav_hidden" role="menu" aria-hidden="true" style="display: none;">
-                        <li><a href="#" role="menuitem" tabindex="-1">詳情</a></li>
-                    </ul>
-                </li>
-				<li class="slicknav_parent slicknav_collapsed"><a href="#" role="menuitem" aria-haspopup="true" tabindex="-1" class="slicknav_item slicknav_row" style="outline: none;"><a href="#">介紹<i class="fa fa-angle-down"></i></a>
-				    <span class="slicknav_arrow">►</span></a><ul class="dropdown slicknav_hidden" role="menu" aria-hidden="true" style="display: none;">
-                        <li><a href="#" role="menuitem" tabindex="-1">設置</a></li>
-                        <li><a href="#" role="menuitem" tabindex="-1">職業</a></li>
-						<li><a href="#" role="menuitem" tabindex="-1">地圖</a></li>
-                        <li><a href="#" role="menuitem" tabindex="-1">武器</a></li>
-                        <li><a href="#" role="menuitem" tabindex="-1">防具</a></li>
-						<li><a href="#" role="menuitem" tabindex="-1">道具</a></li>
-						<li><a href="#" role="menuitem" tabindex="-1">娃娃</a></li>
-						<li><a href="#" role="menuitem" tabindex="-1">魔法</a></li>
-                    </ul>
-                </li>
-                <li class="slicknav_collapsed slicknav_parent"><a href="#" role="menuitem" aria-haspopup="true" tabindex="-1" class="slicknav_item slicknav_row" style="outline: none;"><a href="#">申請<i class="fa fa-angle-down"></i></a>
-                    <span class="slicknav_arrow">►</span></a><ul class="dropdown slicknav_hidden" role="menu" aria-hidden="true" style="display: none;">
-                        <li><a href="#" role="menuitem" tabindex="-1">遊戲帳號</a></li>
-                    </ul>
-                </li>
-                <li class="slicknav_collapsed slicknav_parent"><a href="#" role="menuitem" aria-haspopup="true" tabindex="-1" class="slicknav_item slicknav_row" style="outline: none;"><a href="#">下載<i class="fa fa-angle-down"></i></a>
-                    <span class="slicknav_arrow">►</span></a><ul class="dropdown slicknav_hidden" role="menu" aria-hidden="true" style="display: none;">
-                        <li><a href="#" role="menuitem" tabindex="-1">下載區</a></li>
-                    </ul>
-                </li>
-                <li class="slicknav_collapsed slicknav_parent"><a href="#" role="menuitem" aria-haspopup="true" tabindex="-1" class="slicknav_item slicknav_row" style="outline: none;"><a href="#">剪輯<i class="fa fa-angle-down"></i></a>
-                    <span class="slicknav_arrow">►</span></a><ul class="dropdown slicknav_hidden" role="menu" aria-hidden="true" style="display: none;">
-                        <li><a href="#" role="menuitem" tabindex="-1">遊戲彩蛋</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </div></div></div>
-        
+        <div id="mobile-menu-wrap"></div>
+        <div class="hw-copyright">
+            Copyright © by T&amp;G. All rights reserved
+        </div>
         <div class="hw-social">
-            
-            
-            
-            
+            <!-- Social icons -->
         </div>
         <div class="hw-insta-media">
             <div class="section-title">
-                
+                <h5>排行</h5>
             </div>
-            
+            <div class="insta-pic">
+                <img src="img/instagram/ip-1.jpg" alt="">
+                <img src="img/instagram/ip-2.jpg" alt="">
+                <img src="img/instagram/ip-3.jpg" alt="">
+                <img src="img/instagram/ip-4.jpg" alt="">
+            </div>
         </div>
     </div>
     <!-- Humberger Menu End -->
 
     <!-- Header Section Begin -->
     <header class="header-section">
-        
+        <div class="ht-options">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-8">
+                        <div class="ht-widget">
+                            <ul>
+                                <li>
+                                    <i class="fa fa-clock-o"></i> 天堂 : 起源 Nov 20, 2025
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-4">
+                        <div class="ht-social">
+                            <!-- Header social -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="logo">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center">
-                       <a href=""><img src="img src="img/logo.png" alt=""></a>
+                        <a href="./index.html"><img src="img/logo.png" alt="Logo"></a>
                     </div>
                 </div>
             </div>
@@ -144,91 +137,35 @@
                 <div class="humberger-menu humberger-open">
                     <i class="fa fa-bars"></i>
                 </div>
-				<div class="nav-search search-switch">
+                <div class="nav-search search-switch">
                     <i class="fa fa-search"></i>
                 </div>
                 <div class="nav-menu">
                     <ul>
-                        <li class="active"><a href="./index.html"><span>首頁</span></a></li>
-                        <li class="mega-menu"><a href="#"><span>介紹<i class="fa fa-angle-down"></i></span></a>
-                            <div class="megamenu-wrapper">
-                                <div class="mw-post">
-                                    <div class="mw-post-item">
-                                        <div class="mw-pic">
-                                            <img src="img/megamenu/mm-1.jpg" alt="">
-                                        </div>
-                                        <div class="mw-text">
-                                            <h6><a href="#">設置</a></h6>
-                                        </div>
-                                    </div>
-                                    <div class="mw-post-item">
-                                        <div class="mw-pic">
-                                            <img src="img/megamenu/mm-2.jpg" alt="">
-                                        </div>
-                                        <div class="mw-text">
-                                            <h6><a href="#">職業</a></h6>
-                                        </div>
-                                    </div>
-                                    <div class="mw-post-item">
-                                        <div class="mw-pic">
-                                            <img src="img/megamenu/mm-3" alt="">
-                                        </div>
-                                        <div class="mw-text">
-                                            <h6><a href="#">地圖</a></h6>
-                                        </div>
-                                    </div>
-                                    <div class="mw-post-item">
-                                        <div class="mw-pic">
-                                            <img src="img/megamenu/mm-4" alt="">
-                                        </div>
-                                        <div class="mw-text">
-                                            <h6><a href="#">武器</a></h6>
-                                        </div>
-                                    </div>
-                                    <div class="mw-post-item">
-                                        <div class="mw-pic">
-                                            <img src="img/megamenu/mm-5.jpg" alt="">
-                                        </div>
-                                        <div class="mw-text">
-                                            <h6><a href="#">防具</a></h6>
-                                        </div>
-                                    </div>
-									<div class="mw-post-item">
-                                        <div class="mw-pic">
-                                            <img src="img/megamenu/mm-6.jpg" alt="">
-                                        </div>
-                                        <div class="mw-text">
-                                            <h6><a href="#">道具</a></h6>
-                                        </div>
-                                    </div>
-									<div class="mw-post-item">
-                                        <div class="mw-pic">
-                                            <img src="img/megamenu/mm-7.jpg" alt="">
-                                        </div>
-                                        <div class="mw-text">
-                                            <h6><a href="#">娃娃</a></h6>
-                                        </div>
-                                    </div>
-									<div class="mw-post-item">
-                                        <div class="mw-pic">
-                                            <img src="img/megamenu/mm-8.jpg" alt="">
-                                        </div>
-                                        <div class="mw-text">
-                                            <h6><a href="#">魔法</a></h6>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                        <li class="active">
+                            <a href="./index.html"><span>首頁</span></a>
                         </li>
                         <li>
                             <a href="#"><span>更新<i class="fa fa-angle-down"></i></span></a>
+                        </li>
+                        <li>
+                            <a href="#"><span>介紹<i class="fa fa-angle-down"></i></span></a>
                             <ul class="dropdown">
-                                <li><a href="#">詳情</a></li>
+                                <li><a href="./categories-list.html">設置</a></li>
+                                <li><a href="./categories-grid.html">職業</a></li>
+                                <li><a href="./typography.html">地圖</a></li>
+                                <li><a href="./details-post-default.html">武器</a></li>
+                                <li><a href="./details-post-gallery.html">防具</a></li>
+                                <li><a href="./details-post-review.html">道具</a></li>
+                                <li><a href="./contact.html">魔法</a></li>
                             </ul>
                         </li>
-                        <li><a href="#"><span>申請<i class="fa fa-angle-down"></i></span></a></li>
-                        <li><a href="#"><span>下載<i class="fa fa-angle-down"></i></span></a></li>
-                        <li><a href="#"><span>剪輯<i class="fa fa-angle-down"></i></span></a></li>
+                        <li>
+                            <a href="#"><span>下載<i class="fa fa-angle-down"></i></span></a>
+                        </li>
+                        <li>
+                            <a href="#"><span>剪輯<i class="fa fa-angle-down"></i></span></a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -240,254 +177,135 @@
     <section class="hero-section">
         <div class="container">
             <div class="row">
+                <!-- Left Text -->
                 <div class="col-lg-6 col-md-6">
                     <div class="hs-text">
-                        <h3>Lineage: Origin is coming to the PC platform.</h3>  
+                        <div class="label">
+                            <span>GAME</span>
+                        </div>
+                        <h3>Lineage: Origin is coming to the PC platform.</h3>
+                        <div class="ht-meta">
+                            <ul>
+                                <li>by T&amp;G</li>
+                                <li>Nov 20, 2025</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
+                <!-- Right Trending -->
                 <div class="col-xl-4 col-lg-5 col-md-6 offset-lg-1 offset-xl-2">
                     <div class="trending-post">
                         <div class="section-title">
                             <h5>介紹</h5>
                         </div>
-                        <div class="trending-slider owl-carousel owl-loaded owl-drag">
-                            
-                            
-                        <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-870px, 0px, 0px); transition: 1.2s; width: 1740px;"><div class="owl-item cloned" style="width: 290px;"><div class="single-trending-item">
-                            <div class="trending-item">
-                                <div class="ti-pic">
-                                    <img src="img/trending/trending-1" alt="">
+                        <div class="trending-slider owl-carousel">
+                            <div class="single-trending-item">
+                                <div class="trending-item">
+                                    <div class="ti-pic">
+                                        <img src="img/trending/trending-1.jpg" alt="">
+                                    </div>
+                                    <div class="ti-text">
+                                        <h6><a href="#">版本</a></h6>
+                                        <ul>
+                                            <li><i class="fa fa-clock-o"></i> Nov 20, 2025</li>
+                                        </ul>
+                                    </div>
                                 </div>
-                                <div class="ti-text">
-                                    <h6><a href="#">設置</a>
-                                    </h6>
+                                <div class="trending-item">
+                                    <div class="ti-pic">
+                                        <img src="img/trending/trending-2.jpg" alt="">
+                                    </div>
+                                    <div class="ti-text">
+                                        <h6><a href="#">設置</a></h6>
+                                        <ul>
+                                            <li><i class="fa fa-clock-o"></i> Nov 20, 2025</li>
+                                        </ul>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="trending-item">
-                                <div class="ti-pic">
-                                    <img src="img/trending/trending-2.jpg" alt="">
+                                <div class="trending-item">
+                                    <div class="ti-pic">
+                                        <img src="img/trending/trending-3.jpg" alt="">
+                                    </div>
+                                    <div class="ti-text">
+                                        <h6><a href="#">職業</a></h6>
+                                        <ul>
+                                            <li><i class="fa fa-clock-o"></i> Nov 20, 2025</li>
+                                        </ul>
+                                    </div>
                                 </div>
-                                <div class="ti-text">
-                                    <h6><a href="#">職業</a>
-									</h6>
+                                <div class="trending-item">
+                                    <div class="ti-pic">
+                                        <img src="img/trending/trending-4.jpg" alt="">
+                                    </div>
+                                    <div class="ti-text">
+                                        <h6><a href="#">地圖</a></h6>
+                                        <ul>
+                                            <li><i class="fa fa-clock-o"></i> Nov 20, 2025</li>
+                                        </ul>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="trending-item">
-                                <div class="ti-pic">
-                                    <img src="img/trending/trending-3.jpg" alt="">
+                                <div class="trending-item">
+                                    <div class="ti-pic">
+                                        <img src="img/trending/trending-5.jpg" alt="">
+                                    </div>
+                                    <div class="ti-text">
+                                        <h6><a href="#">武器</a></h6>
+                                        <ul>
+                                            <li><i class="fa fa-clock-o"></i> Nov 20, 2025</li>
+                                        </ul>
+                                    </div>
                                 </div>
-                                <div class="ti-text">
-                                    <h6><a href="#">地圖</a>
-                                    </h6>
+                                <div class="trending-item">
+                                    <div class="ti-pic">
+                                        <img src="img/trending/trending-6.jpg" alt="">
+                                    </div>
+                                    <div class="ti-text">
+                                        <h6><a href="#">防具</a></h6>
+                                        <ul>
+                                            <li><i class="fa fa-clock-o"></i> Nov 20, 2025</li>
+                                        </ul>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="trending-item">
-                                <div class="ti-pic">
-                                    <img src="img/trending/trending-4.jpg" alt="">
+                                <div class="trending-item">
+                                    <div class="ti-pic">
+                                        <img src="img/trending/trending-7.jpg" alt="">
+                                    </div>
+                                    <div class="ti-text">
+                                        <h6><a href="#">道具</a></h6>
+                                        <ul>
+                                            <li><i class="fa fa-clock-o"></i> Nov 20, 2025</li>
+                                        </ul>
+                                    </div>
                                 </div>
-                                <div class="ti-text">
-                                    <h6><a href="#">武器</a>
-                                    </h6>
-                                </div>
-                            </div>
-                        </div></div><div class="owl-item cloned" style="width: 290px;"><div class="single-trending-item">
-                            <div class="trending-item">
-                                <div class="ti-pic">
-                                    <img src="img/trending/trending-5.jpg" alt="">
-                                </div>
-                                <div class="ti-text">
-                                    <h6><a href="#">防具</a>
-                                    </h6>
-                                </div>
-                            </div>
-                            <div class="trending-item">
-                                <div class="ti-pic">
-                                    <img src="img/trending/trending-6.jpg" alt="">
-                                </div>
-                                <div class="ti-text">
-                                    <h6><a href="#">道具</a>
-									</h6>
-                                </div>
-                            </div>
-                            <div class="trending-item">
-                                <div class="ti-pic">
-                                    <img src="img/trending/trending-7.jpg" alt="">
-                                </div>
-                                <div class="ti-text">
-                                    <h6><a href="#">娃娃</a>
-                                    </h6>
-                                </div>
-                            </div>
-                            <div class="trending-item">
-                                <div class="ti-pic">
-                                    <img src="img/trending/trending-8.jpg" alt="">
-                                </div>
-                                <div class="ti-text">
-                                    <h6><a href="#">魔法</a>
-                                    </h6>
-                                </div>
-                            </div>
-                        </div></div><div class="owl-item" style="width: 290px;"><div class="single-trending-item">
-                            <div class="trending-item">
-                                <div class="ti-pic">
-                                    <img src="img/trending/trending-1.jpg" alt="">
-                                </div>
-                                <div class="ti-text">
-                                    <h6><a href="#">設置</a>
-                                    </h6>
-                                </div>
-                            </div>
-                            <div class="trending-item">
-                                <div class="ti-pic">
-                                    <img src="img/trending/trending-2.jpg" alt="">
-                                </div>
-                                <div class="ti-text">
-                                    <h6><a href="#">職業</a>
-									</h6>
+                                <div class="trending-item">
+                                    <div class="ti-pic">
+                                        <img src="img/trending/trending-8.jpg" alt="">
+                                    </div>
+                                    <div class="ti-text">
+                                        <h6><a href="#">魔法</a></h6>
+                                        <ul>
+                                            <li><i class="fa fa-clock-o"></i> Nov 20, 2025</li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="trending-item">
-                                <div class="ti-pic">
-                                    <img src="img/trending/trending-3.jpg" alt="">
-                                </div>
-                                <div class="ti-text">
-                                    <h6><a href="#">地圖</a>
-                                    </h6>
-                                </div>
-                            </div>
-                            <div class="trending-item">
-                                <div class="ti-pic">
-                                    <img src="img/trending/trending-4.jpg" alt="">
-                                </div>
-                                <div class="ti-text">
-                                    <h6><a href="#">武器</a>
-                                    </h6>
-                                </div>
-                            </div>
-                        </div></div><div class="owl-item active" style="width: 290px;"><div class="single-trending-item">
-                            <div class="trending-item">
-                                <div class="ti-pic">
-                                    <img src="img/trending/trending-5.jpg" alt="">
-                                </div>
-                                <div class="ti-text">
-                                    <h6><a href="#">防具</a>
-                                    </h6>
-                                </div>
-                            </div>
-                            <div class="trending-item">
-                                <div class="ti-pic">
-                                    <img src="img/trending/trending-6.jpg" alt="">
-                                </div>
-                                <div class="ti-text">
-                                    <h6><a href="#">道具</a></h6>
-                                </div>
-                            </div>
-                            <div class="trending-item">
-                                <div class="ti-pic">
-                                    <img src="img/trending/trending-7.jpg" alt="">
-                                </div>
-                                <div class="ti-text">
-                                    <h6><a href="#">娃娃</a>
-                                    </h6>
-                                </div>
-                            </div>
-                            <div class="trending-item">
-                                <div class="ti-pic">
-                                    <img src="img/trending/trending-8.jpg" alt="">
-                                </div>
-                                <div class="ti-text">
-                                    <h6><a href="#">魔法</a>
-                                    </h6>
-                                </div>
-                            </div>
-                        </div></div><div class="owl-item cloned" style="width: 290px;"><div class="single-trending-item">
-                            <div class="trending-item">
-                                <div class="ti-pic">
-                                    <img src="img/trending/trending-1.jpg" alt="">
-                                </div>
-                                <div class="ti-text">
-                                    <h6><a href="#">設置</a>
-                                    </h6>
-                                </div>
-                            </div>
-                            <div class="trending-item">
-                                <div class="ti-pic">
-                                    <img src="img/trending/trending-2.jpg" alt="">
-                                </div>
-                                <div class="ti-text">
-                                    <h6><a href="#">職業</a>
-									</h6>
-                                </div>
-                            </div>
-                            <div class="trending-item">
-                                <div class="ti-pic">
-                                    <img src="img/trending/trending-3.jpg" alt="">
-                                </div>
-                                <div class="ti-text">
-                                    <h6><a href="#">地圖</a>
-                                    </h6>
-                                </div>
-                            </div>
-                            <div class="trending-item">
-                                <div class="ti-pic">
-                                    <img src="img/trending/trending-4.jpg" alt="">
-                                </div>
-                                <div class="ti-text">
-                                    <h6><a href="#">武器</a>
-                                    </h6>
-                                </div>
-                            </div>
-                        </div></div><div class="owl-item cloned" style="width: 290px;"><div class="single-trending-item">
-                            <div class="trending-item">
-                                <div class="ti-pic">
-                                    <img src="img/trending/trending-5.jpg" alt="">
-                                </div>
-                                <div class="ti-text">
-                                    <h6><a href="#">防具</a>
-                                    </h6>
-                                </div>
-                            </div>
-                            <div class="trending-item">
-                                <div class="ti-pic">
-                                    <img src="img/trending/trending-6.jpg" alt="">
-                                </div>
-                                <div class="ti-text">
-                                    <h6><a href="#">道具</a>
-									</h6>
-                                </div>
-                            </div>
-                            <div class="trending-item">
-                                <div class="ti-pic">
-                                    <img src="img/trending/trending-7.jpg" alt="">
-                                </div>
-                                <div class="ti-text">
-                                    <h6><a href="#">娃娃</a>
-                                    </h6>
-                                </div>
-                            </div>
-                            <div class="trending-item">
-                                <div class="ti-pic">
-                                    <img src="img/trending/trending-8.jpg" alt="">
-                                </div>
-                                <div class="ti-text">
-                                    <h6><a href="#">魔法</a>
-                                    </h6>
-                                </div>
-                            </div>
-                        </div></div></div></div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev"><span class="arrow_carrot-left"></span></button><button type="button" role="presentation" class="owl-next"><span class="arrow_carrot-right"></span></button></div><div class="owl-dots disabled"></div></div>
+                            <!-- 如有需要可以再加其他 .single-trending-item -->
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="hero-slider owl-carousel owl-loaded owl-drag">
-            
-            
-            
-        <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-3326px, 0px, 0px); transition: all; width: 11641px;"><div class="owl-item cloned" style="width: 1663px;"><div class="hs-item set-bg" data-setbg="img/hero/hero-2.jpg" style="background-image: url(&quot;img/hero/hero-2.jpg&quot;);"></div></div><div class="owl-item animated owl-animated-in fadeIn cloned" style="width: 1663px;"><div class="hs-item set-bg" data-setbg="img/hero/hero-3.jpg" style="background-image: url(&quot;img/hero/hero-3.jpg&quot;);"></div></div><div class="owl-item animated owl-animated-in fadeIn active" style="width: 1663px;"><div class="hs-item set-bg" data-setbg="img/hero/hero-1.jpg" style="background-image: url(&quot;img/hero/hero-1.jpg&quot;);"></div></div><div class="owl-item" style="width: 1663px;"><div class="hs-item set-bg" data-setbg="img/hero/hero-2.jpg" style="background-image: url(&quot;img/hero/hero-2.jpg&quot;);"></div></div><div class="owl-item animated owl-animated-in fadeIn" style="width: 1663px;"><div class="hs-item set-bg" data-setbg="img/hero/hero-3.jpg" style="background-image: url(&quot;img/hero/hero-3.jpg&quot;);"></div></div><div class="owl-item animated owl-animated-in fadeIn cloned" style="width: 1663px;"><div class="hs-item set-bg" data-setbg="img/hero/hero-1.jpg" style="background-image: url(&quot;img/hero/hero-1.jpg&quot;);"></div></div><div class="owl-item cloned" style="width: 1663px;"><div class="hs-item set-bg" data-setbg="img/hero/hero-2.jpg" style="background-image: url(&quot;img/hero/hero-2.jpg&quot;);"></div></div></div></div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev"><span aria-label="Previous">‹</span></button><button type="button" role="presentation" class="owl-next"><span aria-label="Next">›</span></button></div><div class="owl-dots"><button role="button" class="owl-dot active"><span></span></button><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot"><span></span></button></div></div>
+
+        <!-- Hero Slider -->
+        <div class="hero-slider owl-carousel">
+            <div class="hs-item set-bg" data-setbg="img/hero/hero-1.jpg"></div>
+            <div class="hs-item set-bg" data-setbg="img/hero/hero-2.jpg"></div>
+            <div class="hs-item set-bg" data-setbg="img/hero/hero-3.jpg"></div>
+        </div>
     </section>
     <!-- Hero Section End -->
 
-    <!-- 剪輯Guide Section Begin -->
+    <!-- Videos Guide Section Begin -->
     <section class="video-guide-section">
         <div class="container">
             <div class="row">
@@ -498,454 +316,164 @@
                 </div>
             </div>
             <div class="tab-elem">
+                <ul class="nav nav-tabs" role="tablist">
+                    <!-- 若未使用可留空或之後再加 -->
+                </ul>
                 <!-- Tab panes -->
                 <div class="tab-content">
                     <div class="tab-pane fade show active" id="tabs-5" role="tabpanel">
                         <div class="row">
-                            <div class="vg-slider owl-carousel owl-loaded owl-drag">
-                                
-                                
-                            <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-2340px, 0px, 0px); transition: 1.2s; width: 7020px;"><div class="owl-item cloned" style="width: 1170px;"><div class="col-lg-12">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="vg-item large-vg set-bg" data-setbg="img/videos/videos-1.jpg" style="background-image: url(&quot;img/videos/videos-1.jpg&quot;);">
-                                            <a href="https://www.youtube.com/watch?v=EzKkl64rRbM" class="play-btn video-popup"><i class="fa fa-play"></i></a>
-                                            <div class="vg-text">
-                                                <h5>遊戲介紹</h5>
+                            <div class="vg-slider owl-carousel">
+                                <div class="col-lg-12">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="vg-item large-vg set-bg" data-setbg="img/videos/videos-1.jpg">
+                                                <a href="https://www.youtube.com/watch?v=EzKkl64rRbM" class="play-btn video-popup">
+                                                    <i class="fa fa-play"></i>
+                                                </a>
+                                                <div class="vg-text">
+                                                    <h5>精華影片1</h5>
+                                                    <ul>
+                                                        <li><i class="fa fa-clock-o"></i> Nov 20, 2025</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="vg-item large-vg set-bg" data-setbg="img/videos/videos-2.jpg">
+                                                <a href="https://www.youtube.com/watch?v=EzKkl64rRbM" class="play-btn video-popup">
+                                                    <i class="fa fa-play"></i>
+                                                </a>
+                                                <div class="vg-text">
+                                                    <h5>精華影片2</h5>
+                                                    <ul>
+                                                        <li><i class="fa fa-clock-o"></i> Nov 20, 2025</li>
+                                                    </ul>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-6">
-                                        <div class="vg-item large-vg set-bg" data-setbg="img/videos/videos-2.jpg" style="background-image: url(&quot;img/videos/videos-2.jpg&quot;);">
-                                            <a href="https://www.youtube.com/watch?v=EzKkl64rRbM" class="play-btn video-popup"><i class="fa fa-play"></i></a>
-                                            <div class="vg-text">
-                                                <h5>遊戲介紹</h5>
+
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="vg-item set-bg" data-setbg="img/videos/videos-3.jpg">
+                                                <a href="https://www.youtube.com/watch?v=EzKkl64rRbM" class="play-btn video-popup">
+                                                    <i class="fa fa-play"></i>
+                                                </a>
+                                                <div class="vg-text">
+                                                    <h6>活動影片1</h6>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                </div>
-                                
-                            </div></div><div class="owl-item cloned" style="width: 1170px;"><div class="col-lg-12">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="vg-item large-vg set-bg" data-setbg="img/videos/videos-1.jpg" style="background-image: url(&quot;img/videos/videos-1.jpg&quot;);">
-                                            <a href="https://www.youtube.com/watch?v=EzKkl64rRbM" class="play-btn video-popup"><i class="fa fa-play"></i></a>
-                                            <div class="vg-text">
-                                                <h5>遊戲介紹</h5>
+                                        <div class="col-md-4">
+                                            <div class="vg-item set-bg" data-setbg="img/videos/videos-4.jpg">
+                                                <a href="https://www.youtube.com/watch?v=EzKkl64rRbM" class="play-btn video-popup">
+                                                    <i class="fa fa-play"></i>
+                                                </a>
+                                                <div class="vg-text">
+                                                    <h6>活動影片2</h6>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="vg-item large-vg set-bg" data-setbg="img/videos/videos-2.jpg" style="background-image: url(&quot;img/videos/videos-2.jpg&quot;);">
-                                            <a href="https://www.youtube.com/watch?v=EzKkl64rRbM" class="play-btn video-popup"><i class="fa fa-play"></i></a>
-                                            <div class="vg-text">
-                                                <h5>遊戲介紹</h5>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                
-                            </div></div><div class="owl-item active" style="width: 1170px;"><div class="col-lg-12">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="vg-item large-vg set-bg" data-setbg="img/videos/videos-1.jpg" style="background-image: url(&quot;img/videos/videos-1.jpg&quot;);">
-                                            <a href="https://www.youtube.com/watch?v=EzKkl64rRbM" class="play-btn video-popup"><i class="fa fa-play"></i></a>
-                                            <div class="vg-text">
-                                                <h5>遊戲介紹</h5>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="vg-item large-vg set-bg" data-setbg="img/videos/videos-2.jpg" style="background-image: url(&quot;img/videos/videos-2.jpg&quot;);">
-                                            <a href="https://www.youtube.com/watch?v=EzKkl64rRbM" class="play-btn video-popup"><i class="fa fa-play"></i></a>
-                                            <div class="vg-text">
-                                                <h5>遊戲介紹</h5>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                
-                            </div></div><div class="owl-item" style="width: 1170px;"><div class="col-lg-12">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="vg-item large-vg set-bg" data-setbg="img/videos/videos-1.jpg" style="background-image: url(&quot;img/videos/videos-1.jpg&quot;);">
-                                            <a href="https://www.youtube.com/watch?v=EzKkl64rRbM" class="play-btn video-popup"><i class="fa fa-play"></i></a>
-                                            <div class="vg-text">
-                                                <h5>遊戲介紹</h5>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="vg-item large-vg set-bg" data-setbg="img/videos/videos-2.jpg" style="background-image: url(&quot;img/videos/videos-2.jpg&quot;);">
-                                            <a href="https://www.youtube.com/watch?v=EzKkl64rRbM" class="play-btn video-popup"><i class="fa fa-play"></i></a>
-                                            <div class="vg-text">
-                                                <h5>遊戲介紹</h5>
+                                        <div class="col-md-4">
+                                            <div class="vg-item set-bg" data-setbg="img/videos/videos-5.jpg">
+                                                <a href="https://www.youtube.com/watch?v=EzKkl64rRbM" class="play-btn video-popup">
+                                                    <i class="fa fa-play"></i>
+                                                </a>
+                                                <div class="vg-text">
+                                                    <h6>活動影片3</h6>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                
-                            </div></div><div class="owl-item cloned" style="width: 1170px;"><div class="col-lg-12">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="vg-item large-vg set-bg" data-setbg="img/videos/videos-1.jpg" style="background-image: url(&quot;img/videos/videos-1.jpg&quot;);">
-                                            <a href="https://www.youtube.com/watch?v=EzKkl64rRbM" class="play-btn video-popup"><i class="fa fa-play"></i></a>
-                                            <div class="vg-text">
-                                                <h5>遊戲介紹</h5>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="vg-item large-vg set-bg" data-setbg="img/videos/videos-2.jpg" style="background-image: url(&quot;img/videos/videos-2.jpg&quot;);">
-                                            <a href="https://www.youtube.com/watch?v=EzKkl64rRbM" class="play-btn video-popup"><i class="fa fa-play"></i></a>
-                                            <div class="vg-text">
-                                                <h5>遊戲介紹</h5>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                
-                            </div></div><div class="owl-item cloned" style="width: 1170px;"><div class="col-lg-12">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="vg-item large-vg set-bg" data-setbg="img/videos/videos-1.jpg" style="background-image: url(&quot;img/videos/videos-1.jpg&quot;);">
-                                            <a href="https://www.youtube.com/watch?v=EzKkl64rRbM" class="play-btn video-popup"><i class="fa fa-play"></i></a>
-                                            <div class="vg-text">
-                                                <h5>遊戲介紹</h5>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="vg-item large-vg set-bg" data-setbg="img/videos/videos-2.jpg" style="background-image: url(&quot;img/videos/videos-2.jpg&quot;);">
-                                            <a href="https://www.youtube.com/watch?v=EzKkl64rRbM" class="play-btn video-popup"><i class="fa fa-play"></i></a>
-                                            <div class="vg-text">
-                                                <h5>遊戲介紹</h5>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                
-                            </div></div></div></div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev"><span class="arrow_carrot-left"></span></button><button type="button" role="presentation" class="owl-next"><span class="arrow_carrot-right"></span></button></div><div class="owl-dots disabled"></div></div>
+                                <!-- 如果需要更多 slide，可以複製上面整塊 col-lg-12 -->
+                            </div>
                         </div>
                     </div>
-                    <div class="tab-pane fade" id="tabs-6" role="tabpanel">
-                        <div class="row">
-                            <div class="vg-slider owl-carousel owl-loaded owl-drag">
-                                
-                                
-                            <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: all;"><div class="owl-item"><div class="col-lg-12">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="vg-item large-vg set-bg" data-setbg="img/videos/videos-1.jpg" style="background-image: url(&quot;img/videos/videos-1.jpg&quot;);">
-                                            <a href="https://www.youtube.com/watch?v=EzKkl64rRbM" class="play-btn video-popup"><i class="fa fa-play"></i></a>
-                                            <div class="vg-text">
-                                                <h5>遊戲介紹</h5>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="vg-item large-vg set-bg" data-setbg="img/videos/videos-2.jpg" style="background-image: url(&quot;img/videos/videos-2.jpg&quot;);">
-                                            <a href="https://www.youtube.com/watch?v=EzKkl64rRbM" class="play-btn video-popup"><i class="fa fa-play"></i></a>
-                                            <div class="vg-text">
-                                                <h5>遊戲介紹</h5>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-4">
-                                        <div class="vg-item set-bg" data-setbg="img/videos/videos-3.jpg" style="background-image: url(&quot;img/videos/videos-3.jpg&quot;);">
-                                            <a href="https://www.youtube.com/watch?v=EzKkl64rRbM" class="play-btn video-popup"><i class="fa fa-play"></i></a>
-                                            <div class="vg-text">
-                                                <h6>驗收1</h6>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="vg-item set-bg" data-setbg="img/videos/videos-4.jpg" style="background-image: url(&quot;img/videos/videos-4.jpg&quot;);">
-                                            <a href="https://www.youtube.com/watch?v=EzKkl64rRbM" class="play-btn video-popup"><i class="fa fa-play"></i></a>
-                                            <div class="vg-text">
-                                                <h6>驗收2</h6>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="vg-item set-bg" data-setbg="img/videos/videos-5.jpg" style="background-image: url(&quot;img/videos/videos-5.jpg&quot;);">
-                                            <a href="https://www.youtube.com/watch?v=EzKkl64rRbM" class="play-btn video-popup"><i class="fa fa-play"></i></a>
-                                            <div class="vg-text">
-                                                <h6>驗收3</h6>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div></div><div class="owl-item"><div class="col-lg-12">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="vg-item large-vg set-bg" data-setbg="img/videos/videos-1.jpg" style="background-image: url(&quot;img/videos/videos-1.jpg&quot;);">
-                                            <a href="https://www.youtube.com/watch?v=EzKkl64rRbM" class="play-btn video-popup"><i class="fa fa-play"></i></a>
-                                            <div class="vg-text">
-                                                <h5>遊戲介紹1</h5>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="vg-item large-vg set-bg" data-setbg="img/videos/videos-2.jpg" style="background-image: url(&quot;img/videos/videos-2.jpg&quot;);">
-                                            <a href="https://www.youtube.com/watch?v=EzKkl64rRbM" class="play-btn video-popup"><i class="fa fa-play"></i></a>
-                                            <div class="vg-text">
-                                                <h5>遊戲介紹1</h5>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-4">
-                                        <div class="vg-item set-bg" data-setbg="img/videos/videos-3.jpg" style="background-image: url(&quot;img/videos/videos-3.jpg&quot;);">
-                                            <a href="https://www.youtube.com/watch?v=EzKkl64rRbM" class="play-btn video-popup"><i class="fa fa-play"></i></a>
-                                            <div class="vg-text">
-                                                <h6>驗收4</h6>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="vg-item set-bg" data-setbg="img/videos/videos-4.jpg" style="background-image: url(&quot;img/videos/videos-4.jpg&quot;);">
-                                            <a href="https://www.youtube.com/watch?v=EzKkl64rRbM" class="play-btn video-popup"><i class="fa fa-play"></i></a>
-                                            <div class="vg-text">
-                                                <h6>驗收5</h6>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="vg-item set-bg" data-setbg="img/videos/videos-5.jpg" style="background-image: url(&quot;img/videos/videos-5.jpg&quot;);">
-                                            <a href="https://www.youtube.com/watch?v=EzKkl64rRbM" class="play-btn video-popup"><i class="fa fa-play"></i></a>
-                                            <div class="vg-text">
-                                                <h6>驗收6</h6>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div></div></div></div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev"><span class="arrow_carrot-left"></span></button><button type="button" role="presentation" class="owl-next"><span class="arrow_carrot-right"></span></button></div><div class="owl-dots disabled"></div></div>
-                        </div>
-                    </div>
-                    <div class="tab-pane fade" id="tabs-7" role="tabpanel">
-                        <div class="row">
-                            <div class="vg-slider owl-carousel owl-loaded owl-drag">
-                                
-                                
-                            <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: all;"><div class="owl-item"><div class="col-lg-12">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="vg-item large-vg set-bg" data-setbg="img/videos/videos-1.jpg" style="background-image: url(&quot;img/videos/videos-1.jpg&quot;);">
-                                            <a href="https://www.youtube.com/watch?v=EzKkl64rRbM" class="play-btn video-popup"><i class="fa fa-play"></i></a>
-                                            <div class="vg-text">
-                                                <h5>遊戲介紹2</h5>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="vg-item large-vg set-bg" data-setbg="img/videos/videos-2.jpg" style="background-image: url(&quot;img/videos/videos-2.jpg&quot;);">
-                                            <a href="https://www.youtube.com/watch?v=EzKkl64rRbM" class="play-btn video-popup"><i class="fa fa-play"></i></a>
-                                            <div class="vg-text">
-                                                <h5>遊戲介紹2</h5>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-4">
-                                        <div class="vg-item set-bg" data-setbg="img/videos/videos-3.jpg" style="background-image: url(&quot;img/videos/videos-3.jpg&quot;);">
-                                            <a href="https://www.youtube.com/watch?v=EzKkl64rRbM" class="play-btn video-popup"><i class="fa fa-play"></i></a>
-                                            <div class="vg-text">
-                                                <h6>驗收7</h6>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="vg-item set-bg" data-setbg="img/videos/videos-4.jpg" style="background-image: url(&quot;img/videos/videos-4.jpg&quot;);">
-                                            <a href="https://www.youtube.com/watch?v=EzKkl64rRbM" class="play-btn video-popup"><i class="fa fa-play"></i></a>
-                                            <div class="vg-text">
-                                                <h6>驗收8</h6>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-4">
-                                        <div class="vg-item set-bg" data-setbg="img/videos/videos-5.jpg" style="background-image: url(&quot;img/videos/videos-5.jpg&quot;);">
-                                            <a href="https://www.youtube.com/watch?v=EzKkl64rRbM" class="play-btn video-popup"><i class="fa fa-play"></i></a>
-                                            <div class="vg-text">
-                                                <h6>驗收9</h6>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div></div><div class="owl-item"><div class="col-lg-12">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="vg-item large-vg set-bg" data-setbg="img/videos/videos-1.jpg" style="background-image: url(&quot;img/videos/videos-1.jpg&quot;);">
-                                            <a href="https://www.youtube.com/watch?v=EzKkl64rRbM" class="play-btn video-popup"><i class="fa fa-play"></i></a>
-                                            <div class="vg-text">
-                                                <h5>遊戲介紹3</h5>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="vg-item large-vg set-bg" data-setbg="img/videos/videos-2.jpg" style="background-image: url(&quot;img/videos/videos-2.jpg&quot;);">
-                                            <a href="https://www.youtube.com/watch?v=EzKkl64rRbM" class="play-btn video-popup"><i class="fa fa-play"></i></a>
-                                            <div class="vg-text">
-                                                <h5>遊戲介紹3</h5>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-4">
-                                        <div class="vg-item set-bg" data-setbg="img/videos/videos-3.jpg" style="background-image: url(&quot;img/videos/videos-3.jpg&quot;);">
-                                            <a href="https://www.youtube.com/watch?v=EzKkl64rRbM" class="play-btn video-popup"><i class="fa fa-play"></i></a>
-                                            <div class="vg-text">
-                                                <h6>驗收10</h6>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="vg-item set-bg" data-setbg="img/videos/videos-4.jpg" style="background-image: url(&quot;img/videos/videos-4.jpg&quot;);">
-                                            <a href="https://www.youtube.com/watch?v=EzKkl64rRbM" class="play-btn video-popup"><i class="fa fa-play"></i></a>
-                                            <div class="vg-text">
-                                                <h6>驗收11</h6>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="vg-item set-bg" data-setbg="img/videos/videos-5.jpg" style="background-image: url(&quot;img/videos/videos-5.jpg&quot;);">
-                                            <a href="https://www.youtube.com/watch?v=EzKkl64rRbM" class="play-btn video-popup"><i class="fa fa-play"></i></a>
-                                            <div class="vg-text">
-                                                <h6>驗收12</h6>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div></div></div></div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev"><span class="arrow_carrot-left"></span></button><button type="button" role="presentation" class="owl-next"><span class="arrow_carrot-right"></span></button></div><div class="owl-dots disabled"></div></div>
-                        </div>
-                    </div>
-                    <div class="tab-pane fade" id="tabs-8" role="tabpanel">
-                        <div class="row">
-                            <div class="vg-slider owl-carousel owl-loaded owl-drag">
-                                
-                                
-                            <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: all;"><div class="owl-item"><div class="col-lg-12">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="vg-item large-vg set-bg" data-setbg="img/videos/videos-1.jpg" style="background-image: url(&quot;img/videos/videos-1.jpg&quot;);">
-                                            <a href="https://www.youtube.com/watch?v=EzKkl64rRbM" class="play-btn video-popup"><i class="fa fa-play"></i></a>
-                                            <div class="vg-text">
-                                                <h5>遊戲介紹4</h5>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="vg-item large-vg set-bg" data-setbg="img/videos/videos-2.jpg" style="background-image: url(&quot;img/videos/videos-2.jpg&quot;);">
-                                            <a href="https://www.youtube.com/watch?v=EzKkl64rRbM" class="play-btn video-popup"><i class="fa fa-play"></i></a>
-                                            <div class="vg-text">
-                                                <h5>遊戲介紹4</h5>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-4">
-                                        <div class="vg-item set-bg" data-setbg="img/videos/videos-3.jpg" style="background-image: url(&quot;img/videos/videos-3.jpg&quot;);">
-                                            <a href="https://www.youtube.com/watch?v=EzKkl64rRbM" class="play-btn video-popup"><i class="fa fa-play"></i></a>
-                                            <div class="vg-text">
-                                                <h6>驗收13</h6>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="vg-item set-bg" data-setbg="img/videos/videos-4.jpg" style="background-image: url(&quot;img/videos/videos-4.jpg&quot;);">
-                                            <a href="https://www.youtube.com/watch?v=EzKkl64rRbM" class="play-btn video-popup"><i class="fa fa-play"></i></a>
-                                            <div class="vg-text">
-                                                <h6>驗收14</h6>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="vg-item set-bg" data-setbg="img/videos/videos-5.jpg" style="background-image: url(&quot;img/videos/videos-5.jpg&quot;);">
-                                            <a href="https://www.youtube.com/watch?v=EzKkl64rRbM" class="play-btn video-popup"><i class="fa fa-play"></i></a>
-                                            <div class="vg-text">
-                                                <h6>驗收15</h6>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div></div><div class="owl-item"><div class="col-lg-12">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="vg-item large-vg set-bg" data-setbg="img/videos/videos-1.jpg" style="background-image: url(&quot;img/videos/videos-1.jpg&quot;);">
-                                            <a href="https://www.youtube.com/watch?v=EzKkl64rRbM" class="play-btn video-popup"><i class="fa fa-play"></i></a>
-                                            <div class="vg-text">
-                                                <h5>遊戲介紹5</h5>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="vg-item large-vg set-bg" data-setbg="img/videos/videos-2.jpg" style="background-image: url(&quot;img/videos/videos-2.jpg&quot;);">
-                                            <a href="https://www.youtube.com/watch?v=EzKkl64rRbM" class="play-btn video-popup"><i class="fa fa-play"></i></a>
-                                            <div class="vg-text">
-                                                <h5>遊戲介紹5</h5>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-4">
-                                        <div class="vg-item set-bg" data-setbg="img/videos/videos-3.jpg" style="background-image: url(&quot;img/videos/videos-3.jpg&quot;);">
-                                            <a href="https://www.youtube.com/watch?v=EzKkl64rRbM" class="play-btn video-popup"><i class="fa fa-play"></i></a>
-                                            <div class="vg-text">
-                                                <h6>驗收16</h6>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="vg-item set-bg" data-setbg="img/videos/videos-4.jpg" style="background-image: url(&quot;img/videos/videos-4.jpg&quot;);">
-                                            <a href="https://www.youtube.com/watch?v=EzKkl64rRbM" class="play-btn video-popup"><i class="fa fa-play"></i></a>
-                                            <div class="vg-text">
-                                                <h6>驗收17</h6>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="vg-item set-bg" data-setbg="img/videos/videos-5.jpg" style="background-image: url(&quot;img/videos/videos-5.jpg&quot;);">
-                                            <a href="https://www.youtube.com/watch?v=EzKkl64rRbM" class="play-btn video-popup"><i class="fa fa-play"></i></a>
-                                            <div class="vg-text">
-                                                <h6>驗收18</h6>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div></div></div></div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev"><span class="arrow_carrot-left"></span></button><button type="button" role="presentation" class="owl-next"><span class="arrow_carrot-right"></span></button></div><div class="owl-dots disabled"></div></div>
-                        </div>
-                    </div>
+
+                    <!-- 其他 tab (tabs-6, tabs-7, tabs-8) 如暫時沒用可省略或之後再加 -->
                 </div>
             </div>
         </div>
     </section>
-    <!-- 剪輯Guide Section End -->
+    <!-- Videos Guide Section End -->
 
     <!-- Footer Section Begin -->
     <footer class="footer-section">
         <div class="container">
             <div class="row">
+                <!-- About -->
                 <div class="col-lg-4">
                     <div class="footer-about">
                         <div class="fa-logo">
                             <a href="#"><img src="img/f-logo.png" alt=""></a>
                         </div>
+                        <p>
+                            Lorem Ipsum<br><br>
+                            Sub umbra castelli antiqui, ferrum et ira flammis intertexuntur.<br>
+                            Eques mortis gravibus gressibus per proelia transit, nigris auris volitantibus.<br>
+                            Procul bestiae arcanae rugiunt, terram concutientes, echo in caelum surgente.
+                        </p>
+                        <div class="fa-social">
+                            <!-- footer social -->
+                        </div>
                     </div>
-                </div>           
+                </div>
+
+                <!-- Editor Choice / Info Links -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="editor-choice">
+                        <div class="section-title">
+                            <h5>資訊連結</h5>
+                        </div>
+
+                        <div class="ec-item">
+                            <div class="ec-pic">
+                                <img src="img/trending/editor-1.jpg" alt="">
+                            </div>
+                            <div class="ec-text">
+                                <h6><a href="#">天堂透視鏡</a></h6>
+                                <ul>
+                                    <li><i class="fa fa-clock-o"></i> Nov 20, 2025</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="ec-item">
+                            <div class="ec-pic">
+                                <img src="img/trending/editor-2.jpg" alt="">
+                            </div>
+                            <div class="ec-text">
+                                <h6><a href="#">天堂M透視鏡</a></h6>
+                                <ul>
+                                    <li><i class="fa fa-clock-o"></i> Nov 20, 2025</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tags / Friend Links -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="tags-cloud">
+                        <div class="section-title">
+                            <h5>友站連結</h5>
+                        </div>
+                        <div class="tag-list">
+                            <a href="#"><span>私服123</span></a>
+                            <!-- 之後可再加入更多友站 -->
+                        </div>
+                    </div>
+                </div>
             </div>
+
             <div class="copyright-area">
                 <div class="row">
-                    <div class="col-lg-6">
-                        <div class="ca-text"></div>
-                    </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-12 text-center">
+                        <p>Copyright © by T&amp;G.
+                            All rights reserved
+                        </p>
                     </div>
                 </div>
             </div>
@@ -953,15 +481,58 @@
     </footer>
     <!-- Footer Section End -->
 
+    <!-- Sign Up Section Begin -->
+    <div class="signup-section">
+        <div class="signup-close">
+            <i class="fa fa-close"></i>
+        </div>
+        <div class="signup-text">
+            <div class="container">
+                <div class="signup-title">
+                    <h2>Sign up</h2>
+                    <p>Fill out the form below to receive a free and confidential</p>
+                </div>
+                <form action="#" class="signup-form">
+                    <div class="sf-input-list">
+                        <input type="text" class="input-value" placeholder="User Name*">
+                        <input type="password" class="input-value" placeholder="Password">
+                        <input type="password" class="input-value" placeholder="Confirm Password">
+                        <input type="email" class="input-value" placeholder="Email Address">
+                        <input type="text" class="input-value" placeholder="Full Name">
+                    </div>
+                    <div class="radio-check">
+                        <label for="rc-agree">
+                            I agree with the term &amp; conditions
+                            <input type="checkbox" id="rc-agree">
+                            <span class="checkbox"></span>
+                        </label>
+                    </div>
+                    <button type="submit"><span>REGISTER NOW</span></button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- Sign Up Section End -->
+
+    <!-- Search model Begin -->
+    <div class="search-model">
+        <div class="h-100 d-flex align-items-center justify-content-center">
+            <div class="search-close-switch">+</div>
+            <form class="search-model-form">
+                <input type="text" id="search-input" placeholder="Search here.">
+            </form>
+        </div>
+    </div>
+    <!-- Search model end -->
+
     <!-- Js Plugins -->
-    <script src="./Amin _ Template_files/jquery-3.3.1.min.js.下載"></script>
-    <script src="./Amin _ Template_files/bootstrap.min.js.下載"></script>
-    <script src="./Amin _ Template_files/jquery.magnific-popup.min.js.下載"></script>
-    <script src="./Amin _ Template_files/circle-progress.min.js.下載"></script>
-    <script src="./Amin _ Template_files/jquery.barfiller.js.下載"></script>
-    <script src="./Amin _ Template_files/jquery.slicknav.js.下載"></script>
-    <script src="./Amin _ Template_files/owl.carousel.min.js.下載"></script>
-    <script src="./Amin _ Template_files/main.js.下載"></script>
-
-
-</body></html>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/circle-progress.min.js"></script>
+    <script src="js/jquery.barfiller.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
