@@ -44,7 +44,15 @@
                     <a href="#" role="menuitem" aria-haspopup="true" class="slicknav_item slicknav_row">
                         更新 <i class="fa fa-angle-down"></i>
                     </a>
-					<ul class="dropdown" role="menu">
+                    <ul class="dropdown" role="menu">
+					    <li><a href="#" role="menuitem">歷程</a></li>
+                    </ul>
+                </li>
+                <li class="slicknav_parent slicknav_collapsed">
+                    <a href="#" role="menuitem" aria-haspopup="true" class="slicknav_item slicknav_row">
+                        介紹 <i class="fa fa-angle-down"></i>
+                    </a>
+                    <ul class="dropdown" role="menu">
                         <li><a href="./categories-list.html" role="menuitem">設置</a></li>
                         <li><a href="./categories-grid.html" role="menuitem">職業</a></li>
                         <li><a href="./typography.html" role="menuitem">地圖</a></li>
@@ -52,14 +60,6 @@
                         <li><a href="./details-post-gallery.html" role="menuitem">防具</a></li>
                         <li><a href="./details-post-review.html" role="menuitem">道具</a></li>
                         <li><a href="./contact.html" role="menuitem">魔法</a></li>
-                    </ul>
-                </li>
-                <li class="slicknav_parent slicknav_collapsed">
-                    <a href="#" role="menuitem" aria-haspopup="true" class="slicknav_item slicknav_row">
-                        介紹 <i class="fa fa-angle-down"></i>
-                    </a>
-					<ul class="dropdown" role="menu">
-                        <li><a href="#" role="menuitem">調整</a></li>
                     </ul>
                 </li>
                 <li class="slicknav_parent slicknav_open">
@@ -198,7 +198,10 @@
                         <div class="section-title">
                             <h5>介紹</h5>
                         </div>
+
+                        <!-- Owl Carousel: Trending Slider -->
                         <div class="trending-slider owl-carousel">
+                            <!-- slide 1 -->
                             <div class="single-trending-item">
                                 <div class="trending-item">
                                     <div class="ti-pic">
@@ -211,6 +214,7 @@
                                         </ul>
                                     </div>
                                 </div>
+
                                 <div class="trending-item">
                                     <div class="ti-pic">
                                         <img src="img/trending/trending-2.jpg" alt="">
@@ -222,6 +226,7 @@
                                         </ul>
                                     </div>
                                 </div>
+
                                 <div class="trending-item">
                                     <div class="ti-pic">
                                         <img src="img/trending/trending-3.jpg" alt="">
@@ -233,6 +238,7 @@
                                         </ul>
                                     </div>
                                 </div>
+
                                 <div class="trending-item">
                                     <div class="ti-pic">
                                         <img src="img/trending/trending-4.jpg" alt="">
@@ -244,6 +250,10 @@
                                         </ul>
                                     </div>
                                 </div>
+                            </div>
+
+                            <!-- slide 2 -->
+                            <div class="single-trending-item">
                                 <div class="trending-item">
                                     <div class="ti-pic">
                                         <img src="img/trending/trending-5.jpg" alt="">
@@ -255,6 +265,7 @@
                                         </ul>
                                     </div>
                                 </div>
+
                                 <div class="trending-item">
                                     <div class="ti-pic">
                                         <img src="img/trending/trending-6.jpg" alt="">
@@ -266,6 +277,7 @@
                                         </ul>
                                     </div>
                                 </div>
+
                                 <div class="trending-item">
                                     <div class="ti-pic">
                                         <img src="img/trending/trending-7.jpg" alt="">
@@ -277,6 +289,7 @@
                                         </ul>
                                     </div>
                                 </div>
+
                                 <div class="trending-item">
                                     <div class="ti-pic">
                                         <img src="img/trending/trending-8.jpg" alt="">
@@ -289,8 +302,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <!-- 如有需要可以再加其他 .single-trending-item -->
                         </div>
+                        <!-- /trending-slider -->
                     </div>
                 </div>
             </div>
@@ -305,7 +318,7 @@
     </section>
     <!-- Hero Section End -->
 
-    <!-- Videos Guide Section Begin -->
+    <!-- Video Guide Section Begin -->
     <section class="video-guide-section">
         <div class="container">
             <div class="row">
@@ -315,20 +328,29 @@
                     </div>
                 </div>
             </div>
+    
             <div class="tab-elem">
+                <!-- 如果先不需要分類，可以只留一個「全部」 -->
                 <ul class="nav nav-tabs" role="tablist">
-                    <!-- 若未使用可留空或之後再加 -->
+                    <li class="nav-item">
+                        <a class="nav-link active" data-toggle="tab" href="#tabs-5" role="tab">全部</a>
+                    </li>
                 </ul>
+    
                 <!-- Tab panes -->
                 <div class="tab-content">
                     <div class="tab-pane fade show active" id="tabs-5" role="tabpanel">
                         <div class="row">
+                            <!-- ★ 結構跟原版一樣：row > vg-slider.owl-carousel > col-lg-12 ... ★ -->
                             <div class="vg-slider owl-carousel">
+    
+                                <!-- slide 1 -->
                                 <div class="col-lg-12">
                                     <div class="row">
                                         <div class="col-md-6">
                                             <div class="vg-item large-vg set-bg" data-setbg="img/videos/videos-1.jpg">
-                                                <a href="https://www.youtube.com/watch?v=EzKkl64rRbM" class="play-btn video-popup">
+                                                <a href="https://www.youtube.com/watch?v=EzKkl64rRbM"
+                                                   class="play-btn video-popup">
                                                     <i class="fa fa-play"></i>
                                                 </a>
                                                 <div class="vg-text">
@@ -339,9 +361,11 @@
                                                 </div>
                                             </div>
                                         </div>
+    
                                         <div class="col-md-6">
                                             <div class="vg-item large-vg set-bg" data-setbg="img/videos/videos-2.jpg">
-                                                <a href="https://www.youtube.com/watch?v=EzKkl64rRbM" class="play-btn video-popup">
+                                                <a href="https://www.youtube.com/watch?v=EzKkl64rRbM"
+                                                   class="play-btn video-popup">
                                                     <i class="fa fa-play"></i>
                                                 </a>
                                                 <div class="vg-text">
@@ -353,11 +377,12 @@
                                             </div>
                                         </div>
                                     </div>
-
+    
                                     <div class="row">
                                         <div class="col-md-4">
                                             <div class="vg-item set-bg" data-setbg="img/videos/videos-3.jpg">
-                                                <a href="https://www.youtube.com/watch?v=EzKkl64rRbM" class="play-btn video-popup">
+                                                <a href="https://www.youtube.com/watch?v=EzKkl64rRbM"
+                                                   class="play-btn video-popup">
                                                     <i class="fa fa-play"></i>
                                                 </a>
                                                 <div class="vg-text">
@@ -365,9 +390,11 @@
                                                 </div>
                                             </div>
                                         </div>
+    
                                         <div class="col-md-4">
                                             <div class="vg-item set-bg" data-setbg="img/videos/videos-4.jpg">
-                                                <a href="https://www.youtube.com/watch?v=EzKkl64rRbM" class="play-btn video-popup">
+                                                <a href="https://www.youtube.com/watch?v=EzKkl64rRbM"
+                                                   class="play-btn video-popup">
                                                     <i class="fa fa-play"></i>
                                                 </a>
                                                 <div class="vg-text">
@@ -375,9 +402,11 @@
                                                 </div>
                                             </div>
                                         </div>
+    
                                         <div class="col-md-4">
                                             <div class="vg-item set-bg" data-setbg="img/videos/videos-5.jpg">
-                                                <a href="https://www.youtube.com/watch?v=EzKkl64rRbM" class="play-btn video-popup">
+                                                <a href="https://www.youtube.com/watch?v=EzKkl64rRbM"
+                                                   class="play-btn video-popup">
                                                     <i class="fa fa-play"></i>
                                                 </a>
                                                 <div class="vg-text">
@@ -387,17 +416,89 @@
                                         </div>
                                     </div>
                                 </div>
-                                <!-- 如果需要更多 slide，可以複製上面整塊 col-lg-12 -->
-                            </div>
+    
+                                <!-- slide 2 -->
+                                <div class="col-lg-12">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="vg-item large-vg set-bg" data-setbg="img/videos/videos-2.jpg">
+                                                <a href="https://www.youtube.com/watch?v=EzKkl64rRbM"
+                                                   class="play-btn video-popup">
+                                                    <i class="fa fa-play"></i>
+                                                </a>
+                                                <div class="vg-text">
+                                                    <h5>精華影片3</h5>
+                                                    <ul>
+                                                        <li><i class="fa fa-clock-o"></i> Nov 20, 2025</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+    
+                                        <div class="col-md-6">
+                                            <div class="vg-item large-vg set-bg" data-setbg="img/videos/videos-1.jpg">
+                                                <a href="https://www.youtube.com/watch?v=EzKkl64rRbM"
+                                                   class="play-btn video-popup">
+                                                    <i class="fa fa-play"></i>
+                                                </a>
+                                                <div class="vg-text">
+                                                    <h5>精華影片4</h5>
+                                                    <ul>
+                                                        <li><i class="fa fa-clock-o"></i> Nov 20, 2025</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+    
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="vg-item set-bg" data-setbg="img/videos/videos-3.jpg">
+                                                <a href="https://www.youtube.com/watch?v=EzKkl64rRbM"
+                                                   class="play-btn video-popup">
+                                                    <i class="fa fa-play"></i>
+                                                </a>
+                                                <div class="vg-text">
+                                                    <h6>活動影片4</h6>
+                                                </div>
+                                            </div>
+                                        </div>
+    
+                                        <div class="col-md-4">
+                                            <div class="vg-item set-bg" data-setbg="img/videos/videos-4.jpg">
+                                                <a href="https://www.youtube.com/watch?v=EzKkl64rRbM"
+                                                   class="play-btn video-popup">
+                                                    <i class="fa fa-play"></i>
+                                                </a>
+                                                <div class="vg-text">
+                                                    <h6>活動影片5</h6>
+                                                </div>
+                                            </div>
+                                        </div>
+    
+                                        <div class="col-md-4">
+                                            <div class="vg-item set-bg" data-setbg="img/videos/videos-5.jpg">
+                                                <a href="https://www.youtube.com/watch?v=EzKkl64rRbM"
+                                                   class="play-btn video-popup">
+                                                    <i class="fa fa-play"></i>
+                                                </a>
+                                                <div class="vg-text">
+                                                    <h6>活動影片6</h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                            </div><!-- /.vg-slider -->
                         </div>
                     </div>
-
-                    <!-- 其他 tab (tabs-6, tabs-7, tabs-8) 如暫時沒用可省略或之後再加 -->
                 </div>
             </div>
         </div>
     </section>
-    <!-- Videos Guide Section End -->
+
+    <!-- Video Guide Section End -->
 
     <!-- Footer Section Begin -->
     <footer class="footer-section">
@@ -410,7 +511,7 @@
                             <a href="#"><img src="img/f-logo.png" alt=""></a>
                         </div>
                         <p>
-                            Lorem Ipsum<br><br>
+                            Lorem Ipsum<br>
                             Sub umbra castelli antiqui, ferrum et ira flammis intertexuntur.<br>
                             Eques mortis gravibus gressibus per proelia transit, nigris auris volitantibus.<br>
                             Procul bestiae arcanae rugiunt, terram concutientes, echo in caelum surgente.
@@ -421,7 +522,7 @@
                     </div>
                 </div>
 
-                <!-- Editor Choice / Info Links -->
+                <!-- Info Links -->
                 <div class="col-lg-4 col-md-6">
                     <div class="editor-choice">
                         <div class="section-title">
@@ -454,7 +555,7 @@
                     </div>
                 </div>
 
-                <!-- Tags / Friend Links -->
+                <!-- Friend Links -->
                 <div class="col-lg-4 col-md-6">
                     <div class="tags-cloud">
                         <div class="section-title">
@@ -471,7 +572,8 @@
             <div class="copyright-area">
                 <div class="row">
                     <div class="col-lg-12 text-center">
-                        <p>Copyright © by T&amp;G.
+                        <p>
+                            Copyright © by T&amp;G.
                             All rights reserved
                         </p>
                     </div>
